@@ -8,12 +8,12 @@ The idea is that any rule based application can be imposed as a combination of v
 
 The main ideas are as followed:
 
-- Any computation in Cell's world is fully vectorization
+- Any computation in Cell's world is fully vectorized
 - 2D Convolution is used to generate neighbors counting "mask" for the Cell
 - Each rule is a vectorized bitwise operator
 - Rules set inhibits a composite logical operations between the rules
 
-Here is a single iteration:
+How a single iteration is applied:
 
 ```python
 import scipy.signal
