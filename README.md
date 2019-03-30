@@ -84,8 +84,8 @@ Way to pass the parameters is:
 `$ your-program 2 3 3 6 "1 0 0 1 1 1"`
 
 ### Output
-Each generation should produce a flat output of the current state to stdout. The values
-should be separated by whitespace and followed by a newline character at the end.
+Each generation produces a flat output of the current state to stdout. The values
+are separated by whitespace and followed by a newline character at the end.
 The format for the output is:
 
  `<row 1> <row 2> <row 3> ... <row n>\n`
@@ -100,7 +100,7 @@ With the current state being
 1 0 1
 ```
 
-the first 2 lines your program should output to stdout will be
+the first 2 lines output to stdout will be
 
 ```
 0 0 0 1 0 0 1 0 1
