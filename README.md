@@ -1,10 +1,10 @@
-## Game of Life - using bit map 2d convolution
+## Game of Life - using vectorized morphological operators
 
 ### Preface
 
-I've chosen to share my implementation of [*Conway's Game of life*](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) since it is using a uniquely elegant of solution using image processing vectorized approach.
+I've chosen to share my implementation of [*Conway's Game of life*](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) since it is using a uniquely elegant of solution using vectorized image processing approach.
 
-The idea is that any rule based application can be imposed as a combination of vectorized bitwise operators. This way we can avoid both "branch-style" and "element wise" computation schemes.
+The idea is that the way cells element beahves can be described as composition of morphological operators (erosion, dilation) which can be easily vectorized. This way we can avoid both "branch-style" and "element wise" computation schemes for rules implementation.
 
 The main ideas are as followed:
 
