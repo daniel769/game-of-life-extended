@@ -2,7 +2,7 @@
 
 ### Preface
 
-I've chosen to share my implementation of *Game of life* since it is using a uniquely elegant of solution using image processing vectorized approach.
+I've chosen to share my implementation of [*Conway's Game of life*](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) since it is using a uniquely elegant of solution using image processing vectorized approach.
 
 The idea is that any rule based application can be imposed as a combination of vectorized bitwise operators. This way we can avoid both "branch-style" and "element wise" computation schemes.
 
